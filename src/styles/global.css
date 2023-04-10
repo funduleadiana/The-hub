@@ -1,0 +1,15 @@
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 12px;
+  border-radius: 16px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: white;
+}

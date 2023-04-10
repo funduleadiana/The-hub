@@ -1,0 +1,41 @@
+.edit-modal {
+  position: fixed;
+  z-index: 5;
+  inset: 0px;
+  overflow: auto;
+  touch-action: pan-y;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 1rem;
+}
+
+.modal-inner {
+  background: white;
+  position: relative;
+  overflow: hidden;
+  width: 230px;
+  height: 200px;
+  padding: 24px;
+  border: 1px solid #dde5ea;
+}
+
+.select-modal {
+  width: 150px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.save {
+  margin-top: 20px;
+  margin-right: 8px;
+  background: #23965a;
+}
+
+.cancel {
+  margin-top: 20px;
+  background: #3c4a66;
+}
